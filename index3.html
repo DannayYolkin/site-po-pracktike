@@ -337,14 +337,7 @@ BX.setCSSList(['/bitrix/js/main/lazyload/dist/lazyload.bundle.css','/bitrix/js/m
         </script>
         <div class="bx-yandex-view-layout">
             <div class="bx-yandex-view-map">
-                <script>
-                    var script = document.createElement('script');
-                    script.src = 'https://api-maps.yandex.ru/2.0/?load=package.full&mode=release&lang=ru-RU&wizard=bitrix';
-                    (document.head || document.documentElement).appendChild(script);
-                    script.onload = function () {
-                        this.parentNode.removeChild(script);
-                    };
-                </script>
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A1a3db97aecc028d44749eb21d0ac14def929bc9d40a4f649873711e10900c771&amp;width=657&amp;height=427&amp;lang=ru_RU&amp;scroll=true"></script>
                 <script type="text/javascript">
         
         if (!window.GLOBAL_arMapObjects)
